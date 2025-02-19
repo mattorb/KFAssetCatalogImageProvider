@@ -1,6 +1,6 @@
 # KFAssetCatalogImageProvider
 
-A Swift package that extends Kingfisher to support loading images from Asset Catalogs using a custom URL scheme. This is particularly useful for SwiftUI previews where you want to maintain Kingfisher's image loading patterns while using local assets from the 'Preview Content' image catalog.
+A Swift package that extends Kingfisher to support loading images from Asset Catalogs using a custom URL scheme. This is particularly useful for SwiftUI previews where you want to maintain Kingfisher's image loading patterns while using local assets from the 'Preview Content' image catalog, all using a straight URL (which is convenient for embedding in sample data/builders). 
 
 ## Requirements
 
