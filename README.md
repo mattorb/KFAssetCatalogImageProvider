@@ -4,7 +4,7 @@ A Swift package that extends Kingfisher to support loading images from Asset Cat
 
 # Why would you want this?
 
-This is particularly useful for SwiftUI previews when you want to use local image assets from the 'Preview Content' image catalog.  You image locator remains a URL, and any sample data/builder can refer to those images via a URL, retaining KFImage semantics (placeholder, etc). 
+This is particularly useful for SwiftUI previews when you want to use local image assets from the 'Preview Content' image catalog.  Your image locator (a URL) provided by any sample data can now refer to local Preview Only image resources, retaining KFImage usage&behaviors (placeholder, etc), and ensuring those images are not bundled into a release app version. 
 
 ## Requirements
 
