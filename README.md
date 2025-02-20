@@ -33,7 +33,13 @@ struct ContentView: View {
 }
 ```
 
+
+### Full Example
 If you pass in a scheme of `file://` or `https://` that still works with the new initializer. 
+
+[Example Project](https://github.com/mattorb/KFAssetCatalogImageProviderExample)
+![CleanShot 2025-02-20 at 10 39 04@2x](https://github.com/user-attachments/assets/8840c325-a115-4356-8fd6-7497e73adaa3)
+
 
 ### URL Format
 
